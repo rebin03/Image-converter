@@ -1,4 +1,4 @@
-# Image converter
+# Image-converter
 A simple image converter using python.
 Size and format of an image can be converted using this image converter
 
