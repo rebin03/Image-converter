@@ -8,7 +8,7 @@ try:
 
     argument = sys.argv[3]
 
-    if operation == '-f':
+    if operation == '-format':
         
         r = fullimageFileName.split('.')
 
@@ -21,7 +21,7 @@ try:
         converted.save(f'{imageFileName}t.{argument}')
 
 
-    elif operation == '-r':
+    elif operation == '-resize':
         im = Image.open(fullimageFileName)
         r = argument.split('x')
         r_tuple = (int(r[0]), int(r[1]))
@@ -32,10 +32,10 @@ except:
     print('Usage')
     print('python resizer.py [input file name] [operation] [argument]')
     print('Operation: ')
-    print('-f :To change format of image')
-    print('Example 1: python resizer.py image.jpeg -f png ')
-    print('Example 2: python resizer.py image.png -f jpeg ')
+    print('-format :To change format of image')
+    print('Example 1: python resizer.py image.jpeg -format png ')
+    print('Example 2: python resizer.py image.png -format jpeg ')
     print()
-    print('-r :To resize the image')
-    print('Example 1: python resizer.py image.jpeg -r 200x200 ')
-    print('Example 2: python resizer.py image.jpeg -r 250x200 ')
+    print('-resize :To resize the image')
+    print('Example 1: python resizer.py image.jpeg -resize 200x200 ')
+    print('Example 2: python resizer.py image.jpeg -resize 250x200 ')

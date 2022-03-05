@@ -36,18 +36,18 @@ Commant format:
 python resizer.py [input file name] [operation] [argument]
 
 Operation: 
--f : to change format of image
-Example 1: python resizer.py image.jpeg -f png 
-Example 2: python resizer.py image.png -f jpeg 
+-format : to change format of image
+Example 1: python resizer.py image.jpeg -format png 
+Example 2: python resizer.py image.png -format jpeg 
 
--r : To  resize the image
-Example 1: python resizer.py image.jpeg -r 200x200 
-Example 2: python resizer.py image.jpeg -r 250x200 
+-resize : To  resize the image
+Example 1: python resizer.py image.jpeg -resize 200x200 
+Example 2: python resizer.py image.jpeg -resize 250x200 
 ```
 
 ## How to Run
 ```sh
 1. Step 1: Select image to covert the format and image
-2. Step 2: Input the operation to be carried out (For changing the format use -f operation and For resize image use -r operation)
+2. Step 2: Input the operation to be carried out (For changing the format use -format operation and For resize image use -resize operation)
 ```
 
