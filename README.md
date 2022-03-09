@@ -10,8 +10,15 @@ We can convert image to the format jpg,jpeg,png.
 2. [Adithyan M](https://github.com/adithyanmkurup)
 
 ## Team Id
-
+```sh
 Python / 562
+```
+
+## Register ID's
+```sh
+-2112/Muhammed Rebin P
+-1028/Adithya M
+```
 
 
 ## Link to product walkthrough
