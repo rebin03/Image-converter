@@ -20,6 +20,8 @@ try:
 
         converted.save(f'{imageFileName}out.{argument}')
 
+        converted.show()
+
 
     elif operation == '-resize':
 
@@ -32,6 +34,8 @@ try:
         out = im.resize(r_tuple)
 
         out.save(f'New_{fullimageFileName}')
+
+        out.show()
 
 except:
     print('Usage')
