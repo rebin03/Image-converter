@@ -32,7 +32,7 @@ Python / 562
 
 ## How it Works ?
 ```sh
-It convert image to different format and resize the it.
+It convert image to different format and resize it.
 Specific operational commant is given to perform the action. ie, For image formating and size conversion
 ``` 
 
