@@ -33,13 +33,13 @@ Python / 562
 ## How it Works ?
 ```sh
 It convert image to different format and resize it.
-Specific operational commant is given to perform the action. ie, For image formating and size conversion
+Specific operational command is given to perform the action. ie, For image formating and size conversion
 ``` 
 
 
 ## How to configure
 ```sh
-Commant format:
+Command format:
 python resizer.py [input file name] [operation] [argument]
 
 Operation: 
